@@ -36,8 +36,8 @@ function UploadFile(){
         console.log("File Seleccionado : ", input.files[0]);
     }
     // bodyFormData.append('id', cookies.get('userId'));
-    
-    axios.post("http://localhost:5000/upload", bodyFormData, {
+    //axios.post("http://localhost:5000/upload", bodyFormData, {
+    axios.post("https://chat-app-project-ing-web.com/upload", bodyFormData, {
         headers: {
         "Content-Type": "multipart/form-data",
         },
