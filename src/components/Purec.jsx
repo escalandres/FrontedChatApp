@@ -19,7 +19,9 @@ function Hide(){
 }
 
 function Download(){
-    const url = 'http://localhost:5000/icon';
+    // const url = 'http://localhost:5000/icon';
+    const url = 'https://chat-app-project-ing-web.herokuapp.com/icon';
+
     const filename = 'Tour.png';
     axios.get(url, {
         responseType: 'blob',
