@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./src/assets/chatLogo.png" />
+    <link rel="stylesheet" href="./src/css/bulma.min.css"/>
+    <link rel="stylesheet" href="./src/css/home.css">
+    <!-- <link rel="stylesheet" href="./src/assets/fontawesome-free-6.1.1-web/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/7ee186d268.js" crossorigin="anonymous"></script>
+    <title>Chat App | Conectate con el mundo</title>
+</head>
+<body>
+    <div class="all">
+        <section id='navbar_section'>
+            <nav id="nav-sec" class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand navbar__brand">
+                    <a class="navbar-item nav-bar__logo__container" href="#">
+                        <!-- <img id="navbar__logo" class="navbar__logo" src="./src/assets/logoWhite.png"> -->
+                        <div class="navbar__logo"></div>
+                        <p class="navbar__logo__text">Chat App</p>
+                    </a>
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        
+                    </a>
+                </div>
+                <div id="navMenu" class="navbar-menu navbar__menu">
+                    <div class="navbar-start navbar__start">
+                        <a class="navbar-item navbar__text">
+                            Home
+                        </a>
+                        <a class="navbar-item navbar__text">
+                            Descargar
+                        </a>
+                        <a class="navbar-item navbar__text">
+                            Seguridad
+                        </a>
+                        <a class="navbar-item navbar__text">
+                            About
+                        </a>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link navbar__text">
+                                More
+                            </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item ">
+                                    About
+                                </a>
+                                <a class="navbar-item">
+                                    Jobs
+                                </a>
+                                <a class="navbar-item">
+                                    Contact
+                                </a>
+                                <hr class="navbar-divider">
+                                <a class="navbar-item">
+                                    Report an issue
+                                </a>
+                            </div>
+                        </div>
+                        <!-- <div class="theme__container__btn">
+                            <label id="darkModeLabel" class="toggle-dark-mode light-theme-toggle s-cursor-pointer s-relative s-cross-center s-mr-1">
+                                <input id="darkModeInput" class="toggle-input s-opacity-0" type="checkbox" onclick="darkMode()">
+                                <span id="darkModeSpan" class="slider light-theme-span dot s-absolute s-h-24px s-w-24px s-cursor-pointer s-shadow-bottom s-circle"></span>
+                            </label>
+                        </div> -->
+                    </div>
+                    <div id="navbar__end1" class="navbar-end navbar__end">
+                        <div class="navbar-item">
+                            <div class="buttons">
+                                <a class="button navbar__login__btn">
+                                Iniciar sesion
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="theme__container__btn">
+                    <label id="darkModeLabel" class="toggle-dark-mode light-theme-toggle s-cursor-pointer s-relative s-cross-center s-mr-1">
+                        <input id="darkModeInput" class="toggle-input s-opacity-0" type="checkbox" onclick="darkMode()">
+                        <span id="darkModeSpan" class="slider light-theme-span dot s-absolute s-h-24px s-w-24px s-cursor-pointer s-shadow-bottom s-circle"></span>
+                    </label>
+                </div>
+            </nav>
+        </section>
+        <section id='homepage'>
+            <div class="home__container">
+                <div class="image__left__container">
+                    <img class="image__left animation" src="./src/assets/chatUser.png" alt="">
+                </div>
+                <div class="home__container__message">
+                    <h1 class="home__main-message">
+                        Crea un lugar...
+                    </h1>
+                    <div class="home__message__div">
+                        <p class="home__message">
+                            ... en el que puedas formar clubes escolares, grupos de juegos
+                            o una comunidad mundial. En el que puedas pasar tiempo con tus amigos. 
+                            Un lugar que haga que hablar a diario y divertirte sea más fácil.
+                        </p>
+                    </div>
+                    <div class="home__message__btn">
+                        <a href="#" class="btn__download"><i class="fa-solid fa-download icons"></i>Descargar para Windows</a>
+                        <a href="#" class="btn__browser">Abrir Chat en tu navegador</a>
+                    </div>
+                </div>
+                <div class="image__right__container">
+                    <div>
+                        <img id="messageIcon" class="image__right  animation" src="./src/assets/chat.png" alt="">
+                    </div>
+                    <div>
+                        <img class="image__right" src="./src/assets/robot.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <script src="./src/js/home.js"></script>
+</body>
+</html>
