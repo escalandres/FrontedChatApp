@@ -37,7 +37,7 @@ function UploadFile(){
     }
     // bodyFormData.append('id', cookies.get('userId'));
     //axios.post("http://localhost:5000/upload", bodyFormData, {
-    axios.post("https://chat-app-project-ing-web.com/upload", bodyFormData, {
+    axios.post("https://chat-app-project-ing-web.herokuapp.com/upload", bodyFormData, {
         headers: {
         "Content-Type": "multipart/form-data",
         },

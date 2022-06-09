@@ -67,22 +67,6 @@ class Descargar extends React.Component {
             abierto: !this.state.abierto
         }));
     }
-    // progressInstance = () =>{
-    //     this.setState((state, props) => ({
-    //         progress: 0
-    //     }));
-    //     for(let i=0;i<=100;i+=0.1){
-    //         // this.setState({now: i});
-    //         this.setState((state, props) => ({
-    //             progress: i
-    //         }));
-    //     }
-    // };
-    // resetProgress = () =>{
-    //     this.setState((state, props) => ({
-    //         progress: 0
-    //     }));
-    // };
     
     render() {
         return (
@@ -92,13 +76,10 @@ class Descargar extends React.Component {
                     <Carousel>
                         <Carousel.Item>
                             <img className="carousel-img" src={ImgSec1} alt="First slide"/>
-                            {/* <a data-bs-toggle="popover" tittle="Cellphone" data-bs-trigger="focus" data-bs-content="Chat App es la mejor forma de comunicarte en tu celular">
-                                <img className="carousel-img" src={ImgSec1} alt="First slide"/>
-                                {/* <Carousel.Caption>
+                            {/* <Carousel.Caption>
                                 <h3>First slide label</h3>
                                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                 </Carousel.Caption> */}
-                            {/*</a> */}
                         </Carousel.Item>
                         <Carousel.Item>
                             <img className="carousel-img" src={ImgSec2} alt="Second slide"/>
@@ -109,10 +90,6 @@ class Descargar extends React.Component {
                         </Carousel.Item>
                         <Carousel.Item>
                             <img className="carousel-img" src={ImgSec3} alt="Third slide" />
-                            {/* <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                            </Carousel.Caption> */}
                         </Carousel.Item>
                         
                     </Carousel>
@@ -183,10 +160,6 @@ class Descargar extends React.Component {
 
                     </Modal> */}
                 </section>
-                
-                {/* <section id="section4" className="section-area section-white">
-                <Dropzone />
-                </section> */}
 
             </div>    
         )

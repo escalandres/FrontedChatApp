@@ -15,7 +15,7 @@ class About extends React.Component{
                 <div className="accordion__container">
                     <Accordion defaultActiveKey="0">
                         <Accordion.Item eventKey="0">
-                            <Accordion.Header>Accordion Item #1</Accordion.Header>
+                            <Accordion.Header>Noticia #1</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -27,7 +27,7 @@ class About extends React.Component{
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
-                            <Accordion.Header>Accordion Item #2</Accordion.Header>
+                            <Accordion.Header>Noticia #2</Accordion.Header>
                             <Accordion.Body>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -46,10 +46,10 @@ class About extends React.Component{
                     <Card style={{ width: '18rem' }} className="cards">
                         <Card.Img id="card-img1" variant="top" src={react1} />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Ventajas</Card.Title>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            React provee de una metodologia y unos lineamientos para el desarrollo
+                            de proyectos web a gran escala.
                             </Card.Text>
                             <Button variant="primary">Go somewhere</Button>
                         </Card.Body>
@@ -57,10 +57,10 @@ class About extends React.Component{
                     <Card style={{ width: '18rem' }} className="cards">
                         <Card.Img id="card-img2" variant="top" src={react2} />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Inteligencia</Card.Title>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            React es la manera inteligente de crear el Frontend de una pagina web.
+                            Es la mejor herramienta para desarrolladores.
                             </Card.Text>
                             <Button variant="primary">Go somewhere</Button>
                         </Card.Body>

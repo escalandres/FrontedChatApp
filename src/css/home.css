@@ -630,6 +630,9 @@ footer{
     .image__right__div{
         width: 200px;
     }
+    .image__right{
+        display: none;
+    }
     .hidden{
         display: none;
     }

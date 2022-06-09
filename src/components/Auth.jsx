@@ -53,7 +53,7 @@ const Auth = () => {
             const { username, password, phoneNumber, avatarURL } = form;
 
             //const URL = 'http://localhost:5000/auth';
-            const URL = 'https://chat-app-project-ing-web.com/auth';
+            const URL = 'https://chat-app-project-ing-web.herokuapp.com/auth';
 
             const { data: { token, userId, hashedPassword, fullName } } = await axios.post(`${URL}/${isSignup ? 'signup' : 'login'}`, {
                 username, password, fullName: form.fullName, phoneNumber, avatarURL,
@@ -155,7 +155,8 @@ const Auth = () => {
                             
                         <ReCAPTCHA
                             ref={captcha}
-                            sitekey="Your client site key"
+                            //  6Lc1n1IgAAAAABhcRg2DuVhz5q_j9mm8xGmfCLRE
+                            sitekey="6Lc1n1IgAAAAAFz7KKYOvoFg2WS5Z2WeOwWaEmfQ"
                             onChange={onChange}
                         />
                         <Alert key='warning' variant="warning" id="alert-container" className="hidden">
